@@ -1,0 +1,50 @@
+header{
+background-color: rgba(43, 102, 255, 1);
+padding-block: 30px;
+border: none;
+padding-inline: 30px ;
+
+}
+body{
+background-color:rgba(188, 223, 255, 1)  ;
+color: brown;
+margin: auto;
+}
+footer{
+background-color: rgba(43, 102, 255, 1);
+height: 100px;
+}
+/* main header navigation */
+header nav li{
+    list-style: none;
+    color: brown;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'Times New Roman';
+}
+header nav menu#main-menu{
+    display: flex;
+    gap: 25px;
+}
+header nav menu.dropdown{
+    display: none;
+}
+header nav .dropdown-trigger:hover menu.dropdown{
+    display:block;
+    position: absolute;
+}
+header nav a{
+    color: white;
+    font-size: large;
+    font-weight: 50;
+    text-decoration: none;
+}
+header button{
+    background-color:rgba(43, 102, 255, 1) ;
+    border-color: transparent;
+    border: 0px;
+    font-family:'Times New Roman' ;
+}
