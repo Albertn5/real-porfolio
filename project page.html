@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kadwa:wght@400;700&family=Knewave&display=swap" rel="stylesheet">
 <html lang="en">
     
 <head>
@@ -9,19 +12,65 @@
 </head>
 
 <header>
-    <nav>
-        <a href="homepage.html">home</a>
-    </nav>
+    
+  <nav>
+      <a class="homepage" href="homepage.html">Home</a>
+      <menu id="main-menu">
+          <li class="dropdown-trigger">
+              <button> <a href="About me.html">About Me</a></button>
+                  <menu class="dropdown">
+                      <li>
+                          <a href="experiance page.html">achivments/tools Proficient in</a>
+                      </li>
+                  </menu>
+          </li>
+          <li class="dropdown-trigger">
+              <button><a href="project page.html">Projects</a></button>
+              <menu class="dropdown">
+                  <li>
+                      <a href="graphics page.html">graphics</a>
+                  </li>
+                  <li>
+                      <a href="photography page.html">photography</a>
+                  </li>
+                  <li>
+                      <a href="clubs page.html">club designs</a>
+                  </li>
+              </menu>
+          </li>
+
+              <a href="contact.html">Contact</a>
+      </menu>
+  </nav>
 </header>
 
+<section id="projects">
+  <article>
+    <a href="graphics page.html"><img src="assets/images/graphic design.png" alt=""></a>
+    <div class="overlay">
+      <h3></h3>
+      <p></p>
+    </div>
+  </article>
 
+    <article>
+    <a href="photography page.html"><img src="assets/images/camera.webp" alt=""></a>
+    <div class="overlay">
+      <h3></h3>
+      <p></p>
+    </div>
+  </article>
 
-<div>
-    <img src="assets/images/graphic design.png" alt=""><a href="graphics page.html">graphics</a>
-    <img src="assets/images/camera.webp" alt=""><a href="photography page.html">photography</a>
-    <img src="assets/images/club.jpg" alt=""><a href="clubs page.html">clubs</a>
+  <article>
+    <a href="clubs page.html"><img src="assets/images/club.jpg" alt=""></a>
+    <div class="overlay">
+      <h3></h3>
+      <p></p>
+    </div>
+  </article>
+  <br>
+</section>
 
-</div>
 <footer>
     <div></div>
 </footer>
