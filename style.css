@@ -1,50 +1,219 @@
-header{
-background-color: rgba(43, 102, 255, 1);
-padding-block: 30px;
-border: none;
-padding-inline: 30px ;
+/* effects all */
+    header{
+    background-color: rgba(43, 102, 255, 1);
+    padding-block: 30px;
+    border: none;
+    padding-inline: 30px ;
+
+    }
+    body{
+    background-color:rgba(188, 223, 255, 1)  ;
+    color: brown;
+    margin: auto;
+    }
+    footer{
+    background-color: rgba(43, 102, 255, 1);
+    height: 100px;
+}
+
+
+/* main header navigation */
+    header nav li{
+        list-style: none;
+        color: brown;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        font-family: 'Times New Roman';
+    }
+    header nav menu#main-menu{
+        display: flex;
+        gap: 25px;
+    }
+    header nav menu.dropdown{
+        display: none;
+    }
+    header nav .dropdown-trigger:hover menu.dropdown{
+        display:block;
+        position: absolute;
+    }
+    header nav a{
+        color: white;
+        font-size: 24px;
+        font-weight: 50;
+        text-decoration: none;
+    }
+    header button{
+        background-color:rgba(43, 102, 255, 1) ;
+        border-color: transparent;
+        border: 0px;
+        font-family:'Times New Roman' ;
+}
+
+/* homepage images */
+body nav img.homepage-image{
+
+    width: 1670px;
+    height: 550px;
+
+    flex-shrink: 0;
+    padding-left:120px  ;
+    padding-right:113px ;
+    padding-top:36px ;
+    border
+
+    position: relative;
+    object-fit: cover;
+    object-position: top;
+        
 
 }
-body{
-background-color:rgba(188, 223, 255, 1)  ;
-color: brown;
-margin: auto;
+
+/* homepage */
+nav h4.Welcome{
+
+font-size: 96px;
+
 }
-footer{
-background-color: rgba(43, 102, 255, 1);
-height: 100px;
-}
-/* main header navigation */
-header nav li{
-    list-style: none;
-    color: brown;
-}
-header nav{
+
+
+/*widgits for pages*/ 
+
+nav.social{
+    width: 480px; ;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    font-family: 'Times New Roman';
+    gap: 24px;
+    content: center;
+    padding-top: 21px;
+    margin-inline: 24px;
+    stroke-width: 2px;
+        
+
 }
-header nav menu#main-menu{
+
+
+/* project css */
+
+section#projects img{
+    height: 535px;
+    width: 535px;
+    position: relative;
+    object-fit: cover;
+    object-position: right;
+    
+}
+
+
+#projects{
     display: flex;
-    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
 }
-header nav menu.dropdown{
-    display: none;
+
+#projects article{
+    margin-inline:120px ;
+    margin-top: 119px;
+    margin-bottom:119px ;
 }
-header nav .dropdown-trigger:hover menu.dropdown{
-    display:block;
-    position: absolute;
+
+/* graphics images */
+#graphics-2 img{
+    width: 1400px ;
+    height: 1400px;
+    position: relative;
+    object-fit: cover;
+   
 }
-header nav a{
-    color: white;
-    font-size: large;
-    font-weight: 50;
-    text-decoration: none;
+#graphics-2{
+      
+    display:flex;
+    flex-wrap:wrap ;
+    flex: auto;
+    align-content: center;
 }
-header button{
-    background-color:rgba(43, 102, 255, 1) ;
-    border-color: transparent;
-    border: 0px;
-    font-family:'Times New Roman' ;
+
+#graphics-2 article{
+    background-color: white;
+    
+}
+
+/* photo immages */
+
+
+#photo-2 img{
+    width: 313px ;
+    height: 313px;
+    position: relative;
+    object-fit: cover;
+}
+img.r9{
+object-position: auto ;}
+
+
+#photo-2{
+    display:flex;
+    flex-wrap:wrap ;
+    flex: auto;
+    align-content: center;
+}
+/* club immages */
+
+#club-2 img{
+    width:313px ;
+    height:313px;
+    position: relative;
+    object-fit: cover;
+}
+
+#club-2{
+    display:flex;
+    flex-wrap:wrap ;
+    flex: auto;
+    align-content: center;
+}
+
+#club-2 article{
+    background-color: white;
+}
+
+
+
+/* effects all graphics,photo,and club images */
+
+article.top{
+
+    margin-top:143px ;
+    margin-bottom: 64px;
+}
+
+article.middle{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+article.bottom{
+    margin-top: 64px;
+    margin-bottom: 247px;
+
+}
+
+#c1{
+    margin-left: 120px ;
+    margin-right:131px ;
+
+}
+
+#c2{
+    margin-left:131px ;
+    margin-right:124px ;
+
+}
+
+#c3{
+    margin-left:150px ;
+    margin-right:150px ;
 }
