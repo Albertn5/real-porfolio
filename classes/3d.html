@@ -9,10 +9,10 @@
         <link rel="stylesheet" href="../style.css">
 <header>
     <nav>
-        <a class="homepage" href="homepage.html">Home</a>
+        <a class="homepage" href="../homepage.html">Home</a>
         <menu id="main-menu">
             <li class="dropdown-trigger">
-                <button> <a href="About me.html">About Me</a></button>
+                <button> <a href="../About me.html">About Me</a></button>
                     <menu class="dropdown">
                         <li>
                             <a href="experiance page.html">achivments/tools Proficient in</a>
@@ -20,28 +20,99 @@
                     </menu>
             </li>
             <li class="dropdown-trigger">
-                <button><a href="project page.html">Projects</a></button>
+                <button><a href="../project page.html">Projects</a></button>
                 <menu class="dropdown">
                     <li>
-                        <a href="graphics page.html">graphics</a>
+                        <a href="../graphics page.html">graphics</a>
                     </li>
                     <li>
-                        <a href="photography page.html">photography</a>
+                        <a href="../photography page.html">photography</a>
                     </li>
                     <li>
-                        <a href="clubs page.html">club designs</a>
+                        <a href="../clubs page.html">club designs</a>
                     </li>
                 </menu>
             </li>
 
-                <a href="contact.html">Contact</a>
+                <a href="../contact.html">Contact</a>
         </menu>
     </nav>
+    
 </header>
-<body>
-    <div>
-        <video src="../assets/"></video>
+
+
+<main id="video-2">
+    <section id="gallery" >
+      <section id="image-carousel" class="splide" aria-label="Bakery-Items" >
+          <div class="splide__track" id="graphics-immages">
+                <ul class="splide__list">
+  
+                    <li class="splide__slide">
+                    <article class="top" id="c1" class="r1">
+                      <a href="#video-overlay1" rel="modal:open"><img src="../assets/images/video/the-walk-op.png" alt=""></a>
+                    </li>
+                    </article>
+  
+                    <li class="splide__slide">
+                    <article  class="top"id="c3"class="r2">
+                      <a href="#video-overlay2" rel="modal:open"><img src="../assets/images/video/emotion-and-time-op'.png" alt=""></a>
+                    </li>
+                    </article>
+                    
+                    <li class="splide__slide">
+                    <article class="top" id="c2"class="r3">
+                      <a href="#video-overlay3" rel="modal:open"><img src="../assets/images/video/opaning-screan-v2.png" alt=""></a>
+                    </li>
+                    </article>
+  
+                    <li class="splide__slide">
+                      <article class="middle" id="c1" class="r4">
+                      <a href="#video-overlay4" rel="modal:open"><img src="../assets/images/video/op.png" alt=""></a>
+                    </li>
+                    </article>
+                  </ul>
+  </main>
+        
+      </section>
     </div>
-</body>
+    <div id="video-overlay1" class="modal">
+      <video width="320" height="240" controls><source src="../assets/images/video/MVI_6191.MOV"></video>
+      <p>Caption 1</p>
+  </div>
+
+  <div id="video-overlay2" class="modal">
+        <video width="320" height="240" controls><source src="../assets/images/video/final.mp4"></video>
+    <p>Caption 1</p>
+  </div>
+
+  <div id="video-overlay3" class="modal">
+        <video width="320" height="240" controls><source src="../assets/images/video/My Stop Motion Movie (2)_1.mp4"></video>
+    <p>Caption 1</p>
+  </div>
+
+  <div id="video-overlay4" class="modal">
+    <video width="320" height="240" controls><source src="../assets/images/video/MVI_6491.mp4"></video>
+    <p>Caption 1</p>
+  </div>
+  
+  </section>
+  <!-- Remember to include jQuery :) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  
+  <!-- jQuery Modal -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  
+  <!-- pages able to move -->
+  <script src="
+  https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+  "></script>
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js"></script>
+  
+  
+  
+  <script src="../script.js"></script>
+
 
 </html>

@@ -1,3 +1,13 @@
+if(jQuery){
+    console.log("jquery loaded");
+}
+
+else{
+    console.log("no jquery")
+}
+
+
+
 new Splide( '.splide', {
     grid:{
         rows: 3,
@@ -8,3 +18,14 @@ new Splide( '.splide', {
         },
     },
 } ).mount( window.splide.Extensions );
+
+
+
+// mobile
+$('#menu-button').click(function(){
+    $('#overlay-menu-contaner').fadeIn();
+})
+
+$('#close-menu').click(function(){
+    $('#overlay-menu-contaner').fadeOut();
+})
