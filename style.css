@@ -425,6 +425,11 @@ header span{
 
 }
 
+.modal img{
+    /* vh= view height */
+    height: 85vh;
+}
+
 /* phone size */
 @media (max-width:430px){
 
